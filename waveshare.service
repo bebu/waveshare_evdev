@@ -1,0 +1,9 @@
+[Unit]
+Description=Waveshare 7inch userspace driver
+
+[Service]
+Type=simple
+ExecStart/usr/bin/waveshare
+
+[Install]
+WantedBy=multi-user.target
